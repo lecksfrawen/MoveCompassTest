@@ -77,7 +77,6 @@ class ViewController: UIViewController {
         map.bottomAnchor.constraint(equalTo: mapContainerView.bottomAnchor).isActive = true
         map.userTrackingMode = .none
         map.isRotateEnabled = true
-        map.showsUserLocation = true
     }
     
     @IBAction func toogleArrowAction(_ sender: UIButton) {
@@ -94,8 +93,8 @@ extension ViewController: MKMapViewDelegate {
     func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
         print("mapViewDidChangeVisibleRegion")
         guard let mapView = mapView as? SSMapView else { return }
-        let compassHeight: CGFloat = iconImageView.isHidden ? 5 : 80
-        mapView.setCompassPosition(top: compassHeight, animated: false)
+        let compassTopPadding: CGFloat = iconImageView.isHidden ? 5 : 80
+        mapView.setCompassPosition(top: compassTopPadding, animated: false)
     }
     
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {

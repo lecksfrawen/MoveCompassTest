@@ -47,6 +47,7 @@
 		D5354A5D224E70BA0099E5F0 /* MoveCompassTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveCompassTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5354A61224E70BA0099E5F0 /* MoveCompassTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCompassTestUITests.swift; sourceTree = "<group>"; };
 		D5354A63224E70BA0099E5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5354A6F224E76FB0099E5F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 				D5354A41224E70B90099E5F0 /* AppDelegate.swift */,
 				D5354A43224E70B90099E5F0 /* ViewController.swift */,
 				D5354A45224E70B90099E5F0 /* Main.storyboard */,
+				D5354A6F224E76FB0099E5F0 /* README.md */,
 				D5354A48224E70BA0099E5F0 /* Assets.xcassets */,
 				D5354A4A224E70BA0099E5F0 /* LaunchScreen.storyboard */,
 				D5354A4D224E70BA0099E5F0 /* Info.plist */,
@@ -435,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SZP43QR59Q;
 				INFOPLIST_FILE = MoveCompassTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SZP43QR59Q;
 				INFOPLIST_FILE = MoveCompassTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
